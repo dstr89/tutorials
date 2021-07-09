@@ -96,6 +96,12 @@
             <version>${cassandra-driver-core.version}</version>
             <optional>true</optional>
         </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>${lombok.version}</version>
+            <scope>provided</scope>
+        </dependency>
     </dependencies>
 
     <properties>
@@ -104,7 +110,6 @@
         <cassandra-unit-spring.version>2.1.9.2</cassandra-unit-spring.version>
         <cassandra-unit-shaded.version>2.1.9.2</cassandra-unit-shaded.version>
         <hector-core.version>2.0-0</hector-core.version>
-
     </properties>
 
 </project>
